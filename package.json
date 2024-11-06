@@ -1,0 +1,22 @@
+{
+  "name": "encommerce-prueba",
+  "version": "1.0.0",
+  "description": "crud para una tienda de productos tecnologicos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "camilo barragan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
