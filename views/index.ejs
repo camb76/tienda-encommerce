@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabla con Bootstrap</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <nav class="navbar bg-dark ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img
+            src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+            alt="Logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Bootstrap
+        </a>
+      </div>
+    </nav>
+
+<div class="container">
+    <a href="/create" class="btn btn-outline-primary mt-4 "><i class="bx bx-plus">Agregar productos</i></a>
+</div>
+
+    <div class="container my-5">
+      <h2 class="text-center">Tabla de Productos</h2>
+      <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Nombre del Producto</th>
+            <th scope="col">Categoría</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Teclado Mecánico</td>
+            <td>Accesorios</td>
+            <td>$50</td>
+            <td>15</td>
+            <td>
+              <button class="btn btn-primary btn-sm">Editar</button>
+              <button class="btn btn-danger btn-sm">Eliminar</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>Monitor 4K</td>
+            <td>Electrónica</td>
+            <td>$300</td>
+            <td>7</td>
+            <td>
+              <button class="btn btn-primary btn-sm">Editar</button>
+              <button class="btn btn-danger btn-sm">Eliminar</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>Ratón Inalámbrico</td>
+            <td>Accesorios</td>
+            <td>$25</td>
+            <td>30</td>
+            <td>
+              <button class="btn btn-primary btn-sm">Editar</button>
+              <button class="btn btn-danger btn-sm">Eliminar</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <footer class="bg-dark text-white text-center text-lg-start mt-5">
+        <div class="container p-4">
+          <!-- Redes Sociales -->
+          <section class="mb-4">
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+              <i class="bi bi-facebook"></i> Facebook
+            </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+              <i class="bi bi-twitter"></i> Twitter
+            </a>
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button">
+              <i class="bi bi-instagram"></i> Instagram
+            </a>
+          </section>
+      
+          <!-- Enlaces -->
+          <section class="">
+            <div class="row">
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Compañía</h5>
+                <ul class="list-unstyled mb-0">
+                  <li><a href="#!" class="text-white">Sobre Nosotros</a></li>
+                  <li><a href="#!" class="text-white">Carreras</a></li>
+                  <li><a href="#!" class="text-white">Blog</a></li>
+                </ul>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Ayuda</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#!" class="text-white">Centro de Soporte</a></li>
+                  <li><a href="#!" class="text-white">Contacto</a></li>
+                  <li><a href="#!" class="text-white">Preguntas Frecuentes</a></li>
+                </ul>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Legal</h5>
+                <ul class="list-unstyled">
+                  <li><a href="#!" class="text-white">Términos de Servicio</a></li>
+                  <li><a href="#!" class="text-white">Política de Privacidad</a></li>
+                </ul>
+              </div>
+      
+              <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Newsletter</h5>
+                <form>
+                  <div class="form-outline form-white mb-4">
+                    <input type="email" id="form5Example2" class="form-control" placeholder="Correo electrónico" />
+                  </div>
+                  <button type="submit" class="btn btn-outline-light btn-block">Suscribirse</button>
+                </form>
+              </div>
+            </div>
+          </section>
+        </div>
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2024 Compañía:
+          <a class="text-white" href="https://tusitio.com/">tusitio.com</a>
+        </div>
+      </footer>
+
+
+    <!-- Bootstrap JS (opcional) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
