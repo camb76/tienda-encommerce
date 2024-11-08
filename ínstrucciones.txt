@@ -1,0 +1,19 @@
+-instala las dependencias necesarias para el funcionamiento del software:
+npm install 
+
+-con este comando se podra visualizar las tablas del modelo de la bd en el puerto  5555:
+npx prisma studio 
+
+-para comenzar a ver la plantilla principal en donde esta el proyecto en general usar en una terminal: 
+
+node index.js
+(en caso de que no funcione seguramente sea porque no se esta ubicando la ruta del index.js que seria en el src)
+esto iniciaria el servidor en el puerto 3000
+en esta ruta localhost:3000/
+
+-herramientas que se utilizaron en este proyecto:
+vscode
+prisma orm
+plugins como:
+dataTable, sweetalert2, jquery(necesario para el dataTable)
+y un framework de estilos como boostrap
